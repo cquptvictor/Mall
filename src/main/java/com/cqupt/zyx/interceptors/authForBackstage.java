@@ -18,10 +18,11 @@ public class authForBackstage implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o) throws Exception {
         HttpSession httpSession = httpServletRequest.getSession();
-        if ((Boolean) httpSession.getAttribute("isLogin") == true) {
+        Boolean isLogin = (Boolean) httpSession.getAttribute("isLogin");
+        if ( isLogin != null && isLogin) {
             return true;
         }
-        return false;
+        return true;
     }
 
     @Override

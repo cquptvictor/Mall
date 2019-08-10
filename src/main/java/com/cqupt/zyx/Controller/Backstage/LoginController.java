@@ -1,6 +1,6 @@
 package com.cqupt.zyx.Controller.Backstage;
 
-import com.cqupt.zyx.Service.ServiceForBackstage.impl.SysUserServiceImpl;
+import com.cqupt.zyx.Service.impl.SysUserServiceImpl;
 import com.cqupt.zyx.domain.beanForBackstage.SysUser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

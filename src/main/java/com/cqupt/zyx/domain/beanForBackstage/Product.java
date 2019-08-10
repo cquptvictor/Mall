@@ -1,8 +1,7 @@
 package com.cqupt.zyx.domain.beanForBackstage;
 
-import java.util.List;
 
-public class Product {
+public class Product extends File{
     private String title;
     private String description;
     private Double price;
