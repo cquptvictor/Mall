@@ -1,24 +1,16 @@
 package com.cqupt.zyx.domain.beanForBackstage;
 
 /**
- * 后台展示商品详情用的bean*/
-public class Product {
-    private int pid;
+ *用户添加上架商品时使用的bean*/
+
+public class SysProduct extends File{
     private String title;
     private String description;
     private Double price;
     private String category;
     private int weight;
     private String pic;
-
-    public int getPid() {
-        return pid;
-    }
-
-    public void setPid(int pid) {
-        this.pid = pid;
-    }
-
+    private int pid;
     public String getTitle() {
         return title;
     }
@@ -65,5 +57,13 @@ public class Product {
 
     public void setPic(String pic) {
         this.pic = pic;
+    }
+
+    public int getPid() {
+        return pid;
+    }
+
+    public void setPid(int pid) {
+        this.pid = pid;
     }
 }

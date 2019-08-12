@@ -4,6 +4,7 @@ import com.cqupt.zyx.Service.impl.GoodsServiceImpl;
 import com.cqupt.zyx.Utils.FileUploadUtil;
 import com.cqupt.zyx.domain.beanForBackstage.Category;
 import com.cqupt.zyx.domain.beanForBackstage.Product;
+import com.cqupt.zyx.domain.beanForBackstage.SysProduct;
 import com.cqupt.zyx.domain.beanForBackstage.SimpleProduct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -25,7 +26,7 @@ public class GoodsController {
 
     @RequestMapping(value = "/goods",method = RequestMethod.GET)
     @ResponseBody
-    private List<SimpleProduct> getGoods(Category category){
+    public List<SimpleProduct> getGoods(Category category){
         return goodsService.getGoods(category);
     }
 
@@ -35,12 +36,12 @@ public class GoodsController {
 
     @RequestMapping(value = "/specificGoods",method = RequestMethod.GET)
     @ResponseBody
-    private Product getGoods(@RequestParam("id") String id){
-        return goodsService.getSpecificGoods(id);
+    public Product getGoods(String pid){
+        return goodsService.getSpecificGoods(pid);
     }
     @RequestMapping(value = "/updateGoods",method = RequestMethod.POST)
     @ResponseBody
-    private String updateGoods(Product product){
+    public String updateGoods(SysProduct product){
          if(goodsService.updateGoods(product))
              return "{'static':1}";
          else
@@ -51,7 +52,7 @@ public class GoodsController {
 
     @RequestMapping(value = "/deleteGoods",method = RequestMethod.GET)
     @ResponseBody
-    private String deleteGoods(String pid){
+    public String deleteGoods(String pid){
         if(goodsService.deleteGoods(pid))
             return "{'static':1}";
         else
@@ -61,7 +62,7 @@ public class GoodsController {
      * 添加新的商品*/
     @RequestMapping(value = "/addGoods",method = RequestMethod.POST)
     @ResponseBody
-    private String addGoods(Product product){
+    public String addGoods(SysProduct product){
         MultipartFile multipartFile = product.getFile();
         String picPath = FileUploadUtil.save(multipartFile,product.getTitle());
         if(picPath == null)

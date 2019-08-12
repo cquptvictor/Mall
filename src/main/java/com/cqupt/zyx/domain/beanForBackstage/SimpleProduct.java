@@ -2,12 +2,21 @@ package com.cqupt.zyx.domain.beanForBackstage;
 /**
  * 用于商品的简略页面*/
 public class SimpleProduct {
+        private int pid;
         private String title;
         private Double price;
-        private String category;
         private String pic;
-        private int pid;
-        public String getTitle() {
+        private int quantity;
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getTitle() {
             return title;
         }
 
@@ -23,13 +32,6 @@ public class SimpleProduct {
             this.price = price;
         }
 
-        public String getCategory() {
-            return category;
-        }
-
-        public void setCategory(String category) {
-            this.category = category;
-        }
 
         public String getPic() {
             return pic;
