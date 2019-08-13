@@ -27,4 +27,9 @@ public class OrderServiceImpl implements OrderService {
     public Boolean exportExcel(Range timeRange) {
         return null;
     }
+
+    @Override
+    public Boolean delivery(int oid) {
+        return orderDao.delivery(oid);
+    }
 }

@@ -1,9 +1,6 @@
 package com.cqupt.zyx.Dao;
 
-import com.cqupt.zyx.domain.beanForBackstage.Category;
-import com.cqupt.zyx.domain.beanForBackstage.Product;
-import com.cqupt.zyx.domain.beanForBackstage.SysProduct;
-import com.cqupt.zyx.domain.beanForBackstage.SimpleProduct;
+import com.cqupt.zyx.domain.beanForBackstage.*;
 
 import java.util.List;
 
@@ -13,4 +10,5 @@ public interface GoodsDao {
     Boolean updateGoods(SysProduct product);
     Boolean addGoods(SysProduct product);
     Boolean deleteGoods(String id);
+    Boolean setInventory(Inventory inventory);
 }

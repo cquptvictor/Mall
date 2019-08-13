@@ -2,10 +2,7 @@ package com.cqupt.zyx.Service.impl;
 
 import com.cqupt.zyx.Dao.GoodsDao;
 import com.cqupt.zyx.Service.GoodsService;
-import com.cqupt.zyx.domain.beanForBackstage.Category;
-import com.cqupt.zyx.domain.beanForBackstage.Product;
-import com.cqupt.zyx.domain.beanForBackstage.SysProduct;
-import com.cqupt.zyx.domain.beanForBackstage.SimpleProduct;
+import com.cqupt.zyx.domain.beanForBackstage.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -30,5 +27,10 @@ public class GoodsServiceImpl implements GoodsService {
     }
     public Boolean deleteGoods(String pid){
         return goodsDao.deleteGoods(pid);
+    }
+
+    @Override
+    public Boolean setInventory(Inventory inventory) {
+        return goodsDao.setInventory(inventory);
     }
 }

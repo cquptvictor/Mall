@@ -2,12 +2,10 @@ package com.cqupt.zyx.Controller.Backstage;
 
 import com.cqupt.zyx.Service.impl.GoodsServiceImpl;
 import com.cqupt.zyx.Utils.FileUploadUtil;
-import com.cqupt.zyx.domain.beanForBackstage.Category;
-import com.cqupt.zyx.domain.beanForBackstage.Product;
-import com.cqupt.zyx.domain.beanForBackstage.SysProduct;
-import com.cqupt.zyx.domain.beanForBackstage.SimpleProduct;
+import com.cqupt.zyx.domain.beanForBackstage.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -69,6 +67,16 @@ public class GoodsController {
             return "false";
         product.setPic(picPath);
         if(goodsService.addGoods(product))
+            return "{'static':1}";
+        else
+            return "{'static':0}";
+    }
+
+    /**设置商品的库存数*/
+    @RequestMapping(value = "/setInventory",method = RequestMethod.GET)
+    @ResponseBody
+    public String setInventory(Inventory inventory){
+        if(goodsService.setInventory(inventory))
             return "{'static':1}";
         else
             return "{'static':0}";

@@ -38,6 +38,10 @@
         where pid = #{pid}
     </update>
     <insert id="addGoods" parameterType="Product" >
-        insert into product(pid,title,price,pic,category,description,weight)values(#{pid},#{title},#{price},#{pic},#{category},#{description},#{weight})
+        insert into product(pid,title,price,pic,category,description,weight,inventory)values(#{pid},#{title},#{price},#{pic},#{category},#{description},#{weight},#{inventory})
     </insert>
+
+    <update id="setInventory" parameterType="Inventory">
+        update product set inventory = #{inventory} where pid = #{pid};
+    </update>
 </mapper>

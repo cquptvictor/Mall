@@ -10,5 +10,6 @@ public interface OrderService {
     List<SimpleOrder> getOrders(Range timeRange);
     Order getSpecificOrder(int oid);
     Boolean exportExcel(Range timeRange);
+    Boolean delivery(int pid);
 
 }

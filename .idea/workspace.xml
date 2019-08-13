@@ -7,50 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f16c5166-c0bb-497f-896d-0e1d67ebb654" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/OrderDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Status.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/GoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/OrdersController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleOrder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/TimeRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resource/spring/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/spring/applicationContext-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Controller/Backstage/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Controller/Backstage/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Controller/Backstage/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Controller/Backstage/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Controller/Backstage/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Controller/Backstage/OrdersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Service/ServiceForBackstage/SysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Service/ServiceForBackstage/impl/GoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Service/ServiceForBackstage/impl/SysUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Utils/FileUploadUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/Utils/FileUploadUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/GoodsDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/GoodsDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/mapper/OrderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/mapper/OrderDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/baseRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/simpleOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/simpleOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/spring/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/spring/applicationContext-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Controller/Backstage/GoodsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Controller/Backstage/GoodsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Controller/Backstage/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Controller/Backstage/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Controller/Backstage/OrdersController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Controller/Backstage/OrdersController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Dao/GoodsDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Service/ServiceForBackstage/SysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Service/ServiceForBackstage/impl/GoodsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Service/ServiceForBackstage/impl/SysUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Utils/FileUploadUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/Utils/FileUploadUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/SysProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Mall/WEB-INF/classes/com/cqupt/zyx/domain/beanForBackstage/SysProduct.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/baseRange.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/simpleOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/simpleOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/SysProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cqupt/zyx/domain/beanForBackstage/SysProduct.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,36 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/GoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/OrdersController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="334">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,19 +51,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/GoodsDao.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="379">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/GoodsServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="186">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/GoodsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,77 +93,38 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/OrderDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="154">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Order.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/SysUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            <state relative-caret-position="306">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
               <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Product.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/GoodsDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-90">
-              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-              <folding>
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1183#1184#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1251#1252#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="365">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysProduct.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Status.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="90">
+              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -202,21 +132,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-45">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="225">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#243#244#0" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
                 <element signature="e#498#499#0" expanded="true" />
                 <element signature="e#550#551#0" expanded="true" />
                 <element signature="e#594#595#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/OrderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -272,20 +218,22 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/ServiceForBackstage/impl/GoodsServiceIpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/ServiceForBackstage/GoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/ServiceForBackstage/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/OrderService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/src/main/resource/spring/applicationContext-web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/OrdersController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysProduct.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Inventory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/GoodsDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/GoodsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/GoodsService.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/GoodsDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/GoodsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/OrdersController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Status.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleOrder.java" />
         <option value="$PROJECT_DIR$/src/main/resource/mapper/OrderDao.xml" />
       </list>
@@ -306,7 +254,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="965" />
+    <option name="x" value="750" />
+    <option name="y" value="145" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
@@ -318,8 +267,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -484,12 +431,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565531030317" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565674190380" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -499,13 +448,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\victor\Desktop\SSM学习\d14c3o\Mall\src\main\resource" />
-      <recent name="C:\Users\victor\Desktop\SSM学习\d14c3o\Mall\src\main\java\com" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\victor\Desktop\SSM学习\d14c3o\Mall\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\victor\Desktop\SSM学习\d14c3o\Mall\src\main\resource" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\victor\Desktop\SSM学习\d14c3o\Mall\src\main\resource" />
+      <recent name="C:\Users\victor\Desktop\SSM学习\d14c3o\Mall\src\main\java\com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -647,6 +596,7 @@
       <workItem from="1565419847555" duration="18304000" />
       <workItem from="1565503862456" duration="9345000" />
       <workItem from="1565591134678" duration="14231000" />
+      <workItem from="1565669658323" duration="4416000" />
     </task>
     <task id="LOCAL-00001" summary="添加了登录">
       <created>1565358911807</created>
@@ -655,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565358911809</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基本完成了后台管理">
+      <created>1565669693724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565669693724</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55004000" />
+    <option name="totallyTimeSpent" value="59420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -671,9 +628,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24463807" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24798928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -683,7 +641,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.13739377" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.13739377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -750,7 +708,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加了登录" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了登录" />
+    <MESSAGE value="基本完成了后台管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成了后台管理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -788,13 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -886,16 +838,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Page.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -936,120 +878,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/GoodsDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/SysUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/GoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/OrdersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1061,27 +895,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/GoodsDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="135">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
           <folding>
             <element signature="e#302#303#0" expanded="true" />
             <element signature="e#328#329#0" expanded="true" />
@@ -1115,18 +932,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SysProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="11" lean-forward="true" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="315">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="334">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
             <element signature="e#384#385#0" expanded="true" />
@@ -1134,19 +999,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Inventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/SysUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/GoodsDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/domain/beanForBackstage/SimpleOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="225">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
             <element signature="e#498#499#0" expanded="true" />
             <element signature="e#550#551#0" expanded="true" />
@@ -1155,10 +1113,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Controller/Backstage/OrdersController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cqupt/zyx/Dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/OrderDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="154">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>

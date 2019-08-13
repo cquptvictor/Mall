@@ -38,4 +38,12 @@ public class OrdersController {
         return null;
     }
 
+    @RequestMapping(value = "/delivery",method = RequestMethod.GET)
+    @ResponseBody
+    public String updateStatus(int oid){
+        if(orderService.delivery(oid))
+            return "{'static':1}";
+       else
+           return "{'static':0}";
+    }
 }

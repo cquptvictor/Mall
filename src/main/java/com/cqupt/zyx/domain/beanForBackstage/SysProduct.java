@@ -11,6 +11,16 @@ public class SysProduct extends File{
     private int weight;
     private String pic;
     private int pid;
+    private int inventory;
+
+    public int getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(int inventory) {
+        this.inventory = inventory;
+    }
+
     public String getTitle() {
         return title;
     }

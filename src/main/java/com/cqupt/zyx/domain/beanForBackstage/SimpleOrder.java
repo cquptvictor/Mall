@@ -2,9 +2,9 @@ package com.cqupt.zyx.domain.beanForBackstage;
 
 public class SimpleOrder {
     private int oid;
-    private String OrderTime;
+    private String orderTime;
     private double totalPrice;
-
+    private String status;
     public int getOid() {
         return oid;
     }
@@ -14,11 +14,19 @@ public class SimpleOrder {
     }
 
     public String getOrderTime() {
-        return OrderTime;
+        return orderTime;
     }
 
     public void setOrderTime(String orderTime) {
-        OrderTime = orderTime;
+        this.orderTime = orderTime;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public double getTotalPrice() {

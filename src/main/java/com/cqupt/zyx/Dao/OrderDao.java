@@ -9,6 +9,7 @@ import java.util.List;
 public interface OrderDao {
     List<SimpleOrder> getOrdersByPage(Range range);
     Order getSpecificOrder(int oid);
+    Boolean delivery(int oid);
 
 
 }

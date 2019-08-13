@@ -7,6 +7,15 @@ public class SimpleProduct {
         private Double price;
         private String pic;
         private int quantity;
+        private int inventory;
+
+    public int getInventory() {
+        return inventory;
+    }
+
+    public void setInventory(int inventory) {
+        this.inventory = inventory;
+    }
 
     public int getQuantity() {
         return quantity;
