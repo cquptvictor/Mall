@@ -12,7 +12,7 @@
         <collection property="products" column="oid" ofType="SimpleProduct" select="getProductsList" fetchType="eager"/>
     </resultMap>
     <select id="getOrdersByPage" resultType="SimpleOrder">
-        select oid,orderTime,totalPrice from `order`
+        select oid,orderTime,totalPrice,status from `order`
         <where>
             <if test="endTime != null">
                 time &lt; #{endTime},
@@ -29,4 +29,7 @@
     <select id="getProductsList" resultType="SimpleProduct">
         select title,price,pic,product.pid,category,quantity from product join order_product on order_product.oid = #{oid} and order_product.pid = product.pid
     </select>
+    <update id="delivery" >
+        update `order` set status = "InDistribution" where oid = #{oid};
+    </update>
 </mapper>

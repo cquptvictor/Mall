@@ -12,8 +12,12 @@ import java.util.List;
 public class GoodsServiceImpl implements GoodsService {
     @Autowired
     GoodsDao goodsDao;
-    public List<SimpleProduct> getGoods(Category category){
-        return goodsDao.getGoodsByPage(category);
+    public Page<SimpleProduct> getGoods(Page<SimpleProduct> page){
+        Page<SimpleProduct> toBeReturnPage = goodsDao.getGoodsByPage(page);
+        toBeReturnPage.setTotalNumber(page.getTotalNumber());
+        toBeReturnPage.setCurrentPage(page.getCurrentPage());
+        toBeReturnPage.setTotalPage(page.getTotalPage());
+        return toBeReturnPage;
     }
 
     public Product getSpecificGoods(String pid){

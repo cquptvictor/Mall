@@ -4,11 +4,15 @@
 
 <!-- namespace属性是名称空间，必须唯一 -->
 <mapper namespace="com.cqupt.zyx.Dao.GoodsDao">
-    <select id="getGoodsByPage" resultType="SimpleProduct">
+    <resultMap id="PageMap" type="Page">
+        <collection property="data" ofType="SimpleProduct" autoMapping="true">
+        </collection>
+    </resultMap>
+    <select id="getGoodsByPage" resultMap="PageMap">
         select * from product
         <where>
-         <if test="category != null">
-          category = #{category};
+         <if test="filter.category != null">
+          category = #{filter.category}
         </if>
         </where>
     </select>
@@ -38,6 +42,10 @@
         where pid = #{pid}
     </update>
     <insert id="addGoods" parameterType="Product" >
-        insert into product(pid,title,price,pic,category,description,weight)values(#{pid},#{title},#{price},#{pic},#{category},#{description},#{weight})
+        insert into product(pid,title,price,pic,category,description,weight,inventory)values(#{pid},#{title},#{price},#{pic},#{category},#{description},#{weight},#{inventory})
     </insert>
+
+    <update id="setInventory" parameterType="Inventory">
+        update product set inventory = #{inventory} where pid = #{pid};
+    </update>
 </mapper>

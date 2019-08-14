@@ -5,7 +5,7 @@ import com.cqupt.zyx.domain.beanForBackstage.*;
 import java.util.List;
 
 public interface GoodsService {
-     List<SimpleProduct> getGoods(Category category);
+     Page<SimpleProduct> getGoods(Page<SimpleProduct> page);
      Product getSpecificGoods(String id);
      Boolean updateGoods(SysProduct product);
      Boolean addGoods(SysProduct product);

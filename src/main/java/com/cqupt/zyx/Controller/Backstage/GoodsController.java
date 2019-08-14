@@ -5,14 +5,15 @@ import com.cqupt.zyx.Utils.FileUploadUtil;
 import com.cqupt.zyx.domain.beanForBackstage.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Controller
 public class GoodsController {
@@ -24,8 +25,13 @@ public class GoodsController {
 
     @RequestMapping(value = "/goods",method = RequestMethod.GET)
     @ResponseBody
-    public List<SimpleProduct> getGoods(Category category){
-        return goodsService.getGoods(category);
+    public Page<SimpleProduct> getGoods(String category,@RequestParam("page") int nextPage){
+        Page<SimpleProduct> page = new Page<>();
+        Map map=new HashMap<String, Object>();
+        map.put("category",category);
+        page.setCurrentPage(nextPage);
+        page.setFilter(map);
+        return goodsService.getGoods(page);
     }
 
     /***
