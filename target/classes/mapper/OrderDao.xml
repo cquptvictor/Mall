@@ -11,14 +11,17 @@
         <result property="status" column="status"/>
         <collection property="products" column="oid" ofType="SimpleProduct" select="getProductsList" fetchType="eager"/>
     </resultMap>
-    <select id="getOrdersByPage" resultType="SimpleOrder">
+    <resultMap id="PageMap" type="Page">
+        <collection property="data" ofType="SimpleOrder" autoMapping="true">
+        </collection>
+    </resultMap>    <select id="getOrdersByPage" resultMap="PageMap">
         select oid,orderTime,totalPrice,status from `order`
         <where>
-            <if test="endTime != null">
-                time &lt; #{endTime},
+            <if test="filter.endTime != null">
+                time &lt; #{filter.endTime},
             </if>
-            <if test="startTime != null">
-                time &gt; #{startTime}
+            <if test="filter.startTime != null">
+                time &gt; #{filter.startTime}
             </if>
         </where>
     </select>
